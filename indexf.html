@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Font-Family Change</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/CSS" href="font-awesome/css/font-awesome.css">
+        
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+
+
+</head>
+<body>
+<div class="fontchange">
+     <select>
+	    <option>Select Font</option>
+		<option>Open Sans</option>
+		<option>Hagilda</option>
+     	<option>Vollkorn</option>
+		<option>Monospace</option>
+		<option>Palatino</option>
+		<option>Architect</option>
+		<option>Arial</option>
+		<option>BankFuturistic</option>
+		<option>BankGothic</option>
+		<option>Calibri</option>
+		<option>Comic Sans MS</option>
+		<option>Courier</option>
+		<option>Decorative</option>
+		<option>Fantasy</option>
+		<option>Garamond</option>
+		<option>Georgia</option>
+		<option>Averia Sans Libre</option>
+		<option>Righteous</option>
+		<option>Sancreek</option>
+		<option>Agency FB </option>
+		<option>Impact</option>
+		<option>Roman</option>
+		<option>Swiss</option>
+		<option>Times New Roman </option>
+		<option>Alegreya SC </option>
+		<option>Helvetica</option>
+		<option>Aldrich</option>
+		<option>Nothing You Could Do</option>
+		<option>lato</option>
+		<option>Times</option>
+		<option>Abril Fatface</option>
+		<option>Ubuntu</option>
+
+	</select>
+
+	
+	
+		  <p>Paragraphs are commonly numbered using the decimal system, where (in books) the integral part of the decimal represents the number of the chapter and the fractional parts are arranged in each chapter in order of magnitude. Thus in Whittaker and Watson's 1921 A Course of Modern Analysis, chapter 9 is devoted to Fourier Series; within that chapter §9.6 introduces Riemann's theory, the following section §9.61 treats an associated function, following §9.62 some properties of that function, following §9.621 a related lemma, while §9.63 introduces Riemann's main theorem, and so on. Whittaker and Watson attribute this system of numbering to Giuseppe Peano on their "Contents" page, although this attribution does not seem to be widely credited elsewhere.</p>
+		  </div>
+
+		  <script src="jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+          <script >
+
+	$(function(){
+
+		
+
+		$("select").change(function(){
+
+		var Font=$("select").val();
+
+		$("p").css("font-family",Font);
+
+		})
+	})
+  </script>
+
+
+</body>
+</html>
